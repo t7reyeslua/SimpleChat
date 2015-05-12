@@ -44,7 +44,7 @@ class Atiende extends Thread{
 	        reader = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 	        
   	       //Greet client
-	        writer.println("********************************TUDELFT WhatsUP********************************");
+	        writer.println("********************************WhatsUP********************************");
 			
 			//Ask & verify credentials
 			userInfo = askCredentials();
